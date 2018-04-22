@@ -4,7 +4,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      rating: 1,
+      rating: 1
     };
   }
 
@@ -18,7 +18,7 @@ class App extends Component {
   }
 
   setMaxRating = () => {
-    this.setState({ rating: 2 });
+    this.setState({ rating: 5 });
   };
 
   render() {

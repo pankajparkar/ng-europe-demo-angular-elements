@@ -14,7 +14,7 @@ export const CustomeElements = [MyRatingComponent];
   imports: [BrowserModule],
   declarations: [MyRatingComponent, RatingComponent],
   providers: [RatingService],
-  // Step 1: Declare componennt in entryComponents option, so that it can used as CE standalone
+  // Step 1: Declare componennt in entryComponents option of root NgModule, so that it can used as CE standalone
   entryComponents: CustomeElements,
 })
 export class CustomElementsModule {

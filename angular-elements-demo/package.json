@@ -2,7 +2,7 @@
   "name": "ng-elements-demo-ng-europe",
   "scripts": {
     "build": "webpack",
-    "http-server": "httpnpm -server",
+    "http-server": "http-server",
     "start": "npm run build && npm run http-server"
   },
   "dependencies": {
