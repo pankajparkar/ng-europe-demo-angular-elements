@@ -1,16 +1,26 @@
-# ng-europe Angular Elements demos
+# Angular Elements demos
 
 The three demos are in each of the folders
 
-1. angular-elements-demo
-you 1st navigate to `angular-elements-demo` folder & `npm run install`
+1. Angular Elements with VanillaJS
 
-2. react-angular-elements
-Navigate to run `react-angular-elements` & run `npm run install`
-and then run below command
-react-scripts start
+    * navigate to `angular-elements-demo` folder 
+    * do `npm install` in command prompt
+    * do `npm start`
+    * check `http://localhost:8080`
 
-3. vue-angular-elements
-Navigate to run `vue-angular-elements` & run `npm run install`
-and then run below command
-npm run serve 
+2. ReatJS with Angular Elements
+
+    * navigate to `react-angular-elements` folder 
+    * do `npm install` in command prompt
+    * do `react-scripts start`
+    * check `http://localhost:3000`
+
+3. Vue with Angular Elements
+
+    * navigate to `vue-angular-elements` folder 
+    * do `npm install` in command prompt
+    * do `npm run serve`
+    * check `http://localhost:8081`
+
+    Kudos @Antal Andrei, Thanks.
